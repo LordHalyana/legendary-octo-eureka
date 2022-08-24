@@ -11,6 +11,7 @@ import Location from "./Location";
 import NewsMini from "./News-mini";
 import Feed from "./Feed";
 import News from "./News";
+import Clock from "./Clock";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -83,6 +84,7 @@ function Profile() {
           </Grid>
         </Grid>
       </Box>
+      <Clock />
     </div>
   );
 }
